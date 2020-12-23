@@ -1,0 +1,8 @@
+[Unit]
+Description=Update DDNS IP at startup using ddclient
+
+[Service]
+ExecStart=/usr/sbin/ddclient --debug
+
+[Install]
+WantedBy=multi-user.target
