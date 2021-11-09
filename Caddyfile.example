@@ -1,0 +1,11 @@
+{
+  acme_ca https://acme.zerossl.com/v2/DV90
+  email youremail
+  acme_eab {
+    key_id yourkeyid
+    mac_key yourmackey
+  }
+}
+
+yourdomain
+reverse_proxy code-server:8443
